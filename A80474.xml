@@ -1,0 +1,375 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Pseuchographia anthropomagica or, a magicall description of the soul: wherein is set forth the nature, genesis and exodus of it. By Agricola Carpenter.</title>
+            <author>Carpenter, Agricola.</author>
+         </titleStmt>
+         <editionStmt>
+            <edition>
+               <date>1652</date>
+            </edition>
+         </editionStmt>
+         <extent>Approx. 33 KB of XML-encoded text transcribed from 21 1-bit group-IV TIFF page images.</extent>
+         <publicationStmt>
+            <publisher>Text Creation Partnership,</publisher>
+            <pubPlace>Ann Arbor, MI ; Oxford (UK) :</pubPlace>
+            <date when="2014-11">2014-11 (EEBO-TCP Phase 2).</date>
+            <idno type="DLPS">A80474</idno>
+            <idno type="STC">Wing C613</idno>
+            <idno type="STC">Thomason E1369_5</idno>
+            <idno type="STC">ESTC R209319</idno>
+            <idno type="EEBO-CITATION">99868202</idno>
+            <idno type="PROQUEST">99868202</idno>
+            <idno type="VID">169862</idno>
+            <availability>
+               <p>To the extent possible under law, the Text Creation Partnership has waived all copyright and related or neighboring rights to this keyboarded and encoded edition of the work described above, according to the terms of the CC0 1.0 Public Domain Dedication (http://creativecommons.org/publicdomain/zero/1.0/). This waiver does not extend to any page images or other supplementary files associated with this work, which may be protected by copyright or other license restrictions. Please go to https://www.textcreationpartnership.org/ for more information about the project.</p>
+            </availability>
+         </publicationStmt>
+         <seriesStmt>
+            <title>Early English books online text creation partnership.</title>
+         </seriesStmt>
+         <notesStmt>
+            <note>(EEBO-TCP ; phase 2, no. A80474)</note>
+            <note>Transcribed from: (Early English Books Online ; image set 169862)</note>
+            <note>Images scanned from microfilm: (Thomason Tracts ; 179:E1369[5])</note>
+         </notesStmt>
+         <sourceDesc>
+            <biblFull>
+               <titleStmt>
+                  <title>Pseuchographia anthropomagica or, a magicall description of the soul: wherein is set forth the nature, genesis and exodus of it. By Agricola Carpenter.</title>
+                  <author>Carpenter, Agricola.</author>
+               </titleStmt>
+               <extent>[14], 25, [1] p., plate   </extent>
+               <publicationStmt>
+                  <publisher>Printed for John Browne at the sign of the guilded Acorn in Pauls Church-yard,</publisher>
+                  <pubPlace>London :</pubPlace>
+                  <date>1652.</date>
+               </publicationStmt>
+               <notesStmt>
+                  <note>Annotation on Thomason copy: "July. 14".</note>
+                  <note>Reproduction of the original in the British Library.</note>
+               </notesStmt>
+            </biblFull>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <projectDesc>
+            <p>Created by converting TCP files to TEI P5 using tcp2tei.xsl,
+      TEI @ Oxford.
+      </p>
+         </projectDesc>
+         <editorialDecl>
+            <p>EEBO-TCP is a partnership between the Universities of Michigan and Oxford and the publisher ProQuest to create accurately transcribed and encoded texts based on the image sets published by ProQuest via their Early English Books Online (EEBO) database (http://eebo.chadwyck.com). The general aim of EEBO-TCP is to encode one copy (usually the first edition) of every monographic English-language title published between 1473 and 1700 available in EEBO.</p>
+            <p>EEBO-TCP aimed to produce large quantities of textual data within the usual project restraints of time and funding, and therefore chose to create diplomatic transcriptions (as opposed to critical editions) with light-touch, mainly structural encoding based on the Text Encoding Initiative (http://www.tei-c.org).</p>
+            <p>The EEBO-TCP project was divided into two phases. The 25,368 texts created during Phase 1 of the project (2000-2009), initially available only to institutions that contributed to their creation, were released into the public domain on 1 January 2015. The approximately 40,000 texts produced during Phase 2 (2009- ), of which 34,963 had been released as of 2020, originally similarly restricted, were similarly freed from all restrictions on 1 August 2020. As of that date anyone is free to take and use these texts for any purpose (modify them, annotate them, distribute them, etc.). But we do respectfully request that due credit and attribution be given to their original source.</p>
+            <p>Users should be aware of the process of creating the TCP texts, and therefore of any assumptions that can be made about the data.</p>
+            <p>Text selection was based on the New Cambridge Bibliography of English Literature (NCBEL). If an author (or for an anonymous work, the title) appears in NCBEL, then their works are eligible for inclusion. Selection was intended to range over a wide variety of subject areas, to reflect the true nature of the print record of the period. In general, first editions of a works in English were prioritized, although there are a number of works in other languages, notably Latin and Welsh, included and sometimes a second or later edition of a work was chosen if there was a compelling reason to do so.</p>
+            <p>Image sets were sent to external keying companies for transcription and basic encoding. Quality assurance was then carried out by editorial teams in Oxford and Michigan. 5% (or 5 pages, whichever is the greater) of each text was proofread for accuracy and those which did not meet QA standards were returned to the keyers to be redone. After proofreading, the encoding was enhanced and/or corrected and characters marked as illegible were corrected where possible up to a limit of 100 instances per text. Any remaining illegibles were encoded as &lt;gap&gt;s. Understanding these processes should make clear that, while the overall quality of TCP data is very good, some errors will remain and some readable characters will be marked as illegible. Users should bear in mind that in all likelihood such instances will never have been looked at by a TCP editor.</p>
+            <p>The texts were encoded and linked to page images in accordance with level 4 of the TEI in Libraries guidelines.</p>
+            <p>Copies of the texts have been issued variously as SGML (TCP schema; ASCII text with mnemonic sdata character entities); displayable XML (TCP schema; characters represented either as UTF-8 Unicode or text strings within braces); or lossless XML (TEI P5, characters represented either as UTF-8 Unicode or TEI g elements).</p>
+            <p>Keying and markup guidelines are available at the <ref target="http://www.textcreationpartnership.org/docs/.">Text Creation Partnership web site</ref>.</p>
+         </editorialDecl>
+         <listPrefixDef>
+            <prefixDef ident="tcp"
+                       matchPattern="([0-9\-]+):([0-9IVX]+)"
+                       replacementPattern="http://eebo.chadwyck.com/downloadtiff?vid=$1&amp;page=$2"/>
+            <prefixDef ident="char"
+                       matchPattern="(.+)"
+                       replacementPattern="https://raw.githubusercontent.com/textcreationpartnership/Texts/master/tcpchars.xml#$1"/>
+         </listPrefixDef>
+      </encodingDesc>
+      <profileDesc>
+         <langUsage>
+            <language ident="eng">eng</language>
+         </langUsage>
+         <textClass>
+            <keywords scheme="http://authorities.loc.gov/">
+               <term>Soul --  Early works to 1800.</term>
+            </keywords>
+         </textClass>
+      </profileDesc>
+      <revisionDesc>
+         <change>
+            <date>2013-04</date>
+            <label>TCP</label>Assigned for keying and markup</change>
+         <change>
+            <date>2013-04</date>
+            <label>SPi Global</label>Keyed and coded from ProQuest page images</change>
+         <change>
+            <date>2013-07</date>
+            <label>Simon Charles</label>Sampled and proofread</change>
+         <change>
+            <date>2013-07</date>
+            <label>Simon Charles</label>Text and markup reviewed and edited</change>
+         <change>
+            <date>2014-03</date>
+            <label>pfs</label>Batch review (QC) and XML conversion</change>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="eng">
+      <front>
+         <div type="title_page">
+            <pb facs="tcp:169862:1" rendition="simple:additions"/>
+            <p>PSEUCHOGRAPHIA ANTHROPOMAGICA: OR, A Magicall Deſcription OF THE SOUL: Wherein is ſet forth The Nature, Geneſis and Exodus of it.</p>
+            <p>By <hi>Agricola Carpenter,</hi>
+            </p>
+            <q>Vivitur ingenio.</q>
+            <p>
+               <hi>LONDON,</hi> Printed for <hi>John Browne,</hi> at the Sign of the guilded Acorn in <hi>Pauls</hi> Church-yard. 1652.</p>
+         </div>
+         <div type="frontispiece">
+            <pb facs="tcp:169862:2"/>
+            <p>
+               <figure>
+                  <figDesc>depiction of Apollo and the labour of the author</figDesc>
+                  <p>
+                     <label>Apollo</label>
+                  </p>
+                  <q>Redit Agricolae labor actus in Orbem.</q>
+                  <q>Spes alit Agricolam.</q>
+                  <q>Non est e Terris Mollis ad astra Via</q>
+               </figure>
+            </p>
+            <pb facs="tcp:169862:2" rendition="simple:additions"/>
+            <gap reason="duplicate" resp="#OXF" extent="1 page">
+               <desc>〈1 page duplicate〉</desc>
+            </gap>
+         </div>
+         <div type="dedication">
+            <pb facs="tcp:169862:3"/>
+            <pb facs="tcp:169862:3"/>
+            <head>The Authors EPISTLE to his Honoured Friend <hi>TEM.</hi> Hermophrod.</head>
+            <p>
+               <seg rend="decorInit">T</seg>His imperfect brat and Embryo of my brain was dedicated thine in its firſt con<g ref="char:EOLhyphen"/>ception; it hath not been the la<g ref="char:EOLhyphen"/>bour of many dayes, or the product of ſerious hours, but the repoſe of my minutiall vacancies; therefore as its travail hath been but ſhort, and its birth baſty, ſo it cannot evade the greateſt monſtroſity without the largeſt candor, which
+<pb facs="tcp:169862:4"/> as it cannot hope for from the world, whoſe eyes behold with pre<g ref="char:EOLhyphen"/>judice, ſo this is not intended for it, but thee, who knows to enter<g ref="char:EOLhyphen"/>tain a Truth though it cannot plead preſcription, and embrace a veritie without a Panceroll. Su<g ref="char:EOLhyphen"/>perſtitious credulity will condemn me as a heretick, and by the world (whoſe native dialect is reproach) I ſtand excommunicated; I walk ſecure while Truth is my paſsport, and as long as I enjoy her for my gantlet, my ſtation is above the reach of envy. If I have failed in my relation, I hope that Ingenuitie will extenuate the lapſes of my minoritie, and I promiſe my more mature judgement ſhall correct what my flexible infancy hath un<g ref="char:EOLhyphen"/>warily
+<pb facs="tcp:169862:4"/> imbibed. I cannot conteſt with Calumnies, nor know I for the ſtile of heretick, to return my ad<g ref="char:EOLhyphen"/>verſaries the name of Antichriſt: that devotion I owe to knowledg, engageth me upon conviction to repeal by Writ of Errour what they accuſe as hereſie: till then my zeal muſt crave its libertie (the end being knowledge) cannot be ſuppreſſed; it hath many heads, which if it loſe its current in one place, it will break forth into ſome other; thus Truth can triumph in its martyrdom, and being naked can beſt defend it ſelf.</p>
+            <p>Since the depravitie of the protoplast distraction hath been impoſed upon the weal of know<g ref="char:EOLhyphen"/>ledg, and the obſtinacy of poſterity
+<pb facs="tcp:169862:5"/> hath encreaſed it to a paroxyſme of madneſs beyond the power of Hel<g ref="char:EOLhyphen"/>lebore, unleſs the diſcretion and policie of future ages coerce cre<g ref="char:EOLhyphen"/>dulitie, and commit to flames what our ſtubborn parents have obtru<g ref="char:EOLhyphen"/>ded upon the tender infancie of their ſucceſſours:
+<q>
+                  <l>Lame knowledge that expects no Cure</l>
+                  <l>Till books confeſs a Calenture.</l>
+               </q> Every mans ſoul is his living li<g ref="char:EOLhyphen"/>brary, whoſe activity must needs flagg in the channels of an other body, and whoſe wings are clipt whilſt its nature is confined to a <hi>Ne plus ultra,</hi> and thus to ex<g ref="char:EOLhyphen"/>pire in the arms of our fathers, is a ſlavery equalizing the torment of <hi>Mezentius.</hi>
+            </p>
+            <p>Dear Friend, that ingenuity I
+<pb facs="tcp:169862:5"/> alwaies found in thee whilst we were Chamber fellowes, doth pro<g ref="char:EOLhyphen"/>miſe to me thy connivance at thoſe errours that ſhall occur, and a mi<g ref="char:EOLhyphen"/>noration of groſſer crimes to ve<g ref="char:EOLhyphen"/>nial peccadilloes, and likewiſe an entertainment of the cradle-ſer<g ref="char:EOLhyphen"/>vice of this diſguiſed brat, whoſe little deſert, though it cannot ex<g ref="char:EOLhyphen"/>pect thy peruſall, yet its diligence to kiſs thy hands, may merit thy acceptance, whereby he ſhall be en<g ref="char:EOLhyphen"/>couraged to higher deſignes, whoſe higheſt ambition is to be.</p>
+            <closer>
+               <signed>thy Friend to ſerve thee <hi>AG. CARPENTER.</hi>
+               </signed>
+            </closer>
+            <epigraph>
+               <q>An Antidote Rideo. Fortiter contemno.</q>
+            </epigraph>
+         </div>
+         <div type="encomia">
+            <pb facs="tcp:169862:6"/>
+            <div type="encomium">
+               <head>To M<hi rend="sup">r</hi> 
+                  <hi>A. C.</hi>
+               </head>
+               <opener>
+                  <salute>My much to be admired Friend,</salute>
+               </opener>
+               <p>
+                  <seg rend="decorInit">I</seg> Sufficiently know that theſe dropps of mine cannot add to that ſtream of Elo<g ref="char:EOLhyphen"/>quence which hath ſuch a cur<g ref="char:EOLhyphen"/>rent through the veins of that little Book of thine; I pro<g ref="char:EOLhyphen"/>nounce to the world that I am none of the leaſt Travellers, neither have I ſo much de<g ref="char:EOLhyphen"/>lighted in the ſmoak of my own chimney, as not to ſeek out the ſociety of the moſt learned men: to finde thy ſe<g ref="char:EOLhyphen"/>cond I deſpair; <hi>Epictetus</hi> Lan<g ref="char:EOLhyphen"/>thorn
+<pb facs="tcp:169862:6"/> is ſuperannuate: to rob the world of thy invention, were to degenerate and anti<g ref="char:EOLhyphen"/>cipate the end of thy creation, which after-ſervice to a diety is to gratifie thy friend. It is not the firſt favour I have begged, nor the greateſt courteſie which I have received, if you honour the Preſs, and inform the World with your Soul, it will be enough for your Apologie to inſert this unworthy paper, which will be ſufficient teſti<g ref="char:EOLhyphen"/>mony that it was the impor<g ref="char:EOLhyphen"/>tunate entreaty of</p>
+               <closer>
+                  <signed>Your Friend and ſervant HOGLANDUS de BOYS.</signed>
+                  <dateline>Paris, <date>May 3. 1652.</date>
+                  </dateline>
+               </closer>
+            </div>
+            <div type="encomium">
+               <pb facs="tcp:169862:7"/>
+               <head>To M<hi rend="sup">r</hi> 
+                  <hi>A. C.</hi>
+               </head>
+               <l>FEar not to let thy active ſpirit flie,</l>
+               <l>'Tis not thy own but others deſtinie;</l>
+               <l>If Carpers carp, or ruſticks keep a coile,</l>
+               <l>The faireſt face ſeems fairer for a foile.</l>
+               <closer>
+                  <signed>H. B.</signed>
+               </closer>
+            </div>
+            <div type="encomium">
+               <pb facs="tcp:169862:7"/>
+               <head>In Pſeuchographiam Anthropomagicam, <gap reason="foreign" resp="#OXF" extent="1 word">
+                     <desc>〈 in non-Latin alphabet 〉</desc>
+                  </gap>.</head>
+               <l>ABdit a mellipluis funduntur dicta labellis,</l>
+               <l>O qui Paeoniaem demereare chelyn!</l>
+               <l>Nil pareas populo reſerans penetralia rerum,</l>
+               <l>Ne fias rabidi praeda lupina chori?</l>
+               <l>Siccine vecordis fugias ſuffragia plausûs,</l>
+               <l>Dum cupis acclivem doctus inire viam?</l>
+               <l>Non tibi polliceor fundos, viridaria, gemmas,</l>
+               <l>Praemia nec rutuli fulgida vota Tagi.</l>
+               <l>Hoc ſperes lectura tuos Philomuſe, labores,</l>
+               <l>Te decus Aurorae ſecula ſera putent.</l>
+               <l>Seria graendaevus tractet, juvenilia quiſquis</l>
+               <l>Se delirantem non cupit eſſe ſenem.</l>
+               <closer>
+                  <signed>Luſit ſub trino annis eo. <hi>T.M.</hi>
+                  </signed>
+               </closer>
+            </div>
+            <div type="encomium">
+               <pb facs="tcp:169862:8"/>
+               <head>To His much admired Friend, <hi>A. C.</hi> Upon the Publiſhing of that Ingenuous Peece, <hi>PSE<g ref="char:V">Ʋ</g>CHOGRAPHIA ANTHROPOMAGICA.</hi>
+               </head>
+               <lg>
+                  <l>OThers on ſtilts may curvet out thy praiſe,</l>
+                  <l>My hiccop Muſe can only belch out Lays:</l>
+                  <l>Her Sacrifice (brave <hi>Aeſculape</hi>) I pray,</l>
+                  <l>Accept as Cocks to uſher in thy day.</l>
+               </lg>
+               <lg>
+                  <l>Whilſt others Volumes write, thou pickleſt here,</l>
+                  <l>Like <hi>Archimedes</hi> the Heavens in a Sphere:</l>
+                  <l>Their Elephantine Books will now want joynts</l>
+                  <l>To go, ſince thou haſt cramped all their points:</l>
+                  <l>Such Iliads in a Nut-ſhell we may pent,</l>
+                  <l>So little kernell have they being all Lent:</l>
+                  <l>Here every word's <hi>Elixar,</hi> and our ſenſe,</l>
+                  <l>In every phraſe perceives a Quinteſſence:</l>
+                  <l>Giants no wonders are, thy Book's a Flag,</l>
+                  <l>Whoſe Pygmie ſtature will all others gag:</l>
+                  <l>
+                     <hi>Geryon's</hi> ſo admir'd, <hi>Triumvirate</hi>
+                  </l>
+                  <l>Is made by thee to be a common State.</l>
+                  <l>The Soul that Ile of man ſhewn us by thee,</l>
+                  <l>Enlargeth Learnings Maps, th' arts Heptarchee:</l>
+                  <l>A ſecond <hi>Drake</hi> whoſe ſearches have at laſt,</l>
+                  <l>Put Girdles to the leſſer worlds wide waſte;</l>
+                  <l>Here's no Coranting, no Strapado phraſe,</l>
+                  <l>Thy bays preſerv'd thee from thoſe thundring lays:</l>
+                  <pb facs="tcp:169862:8"/>
+                  <l>But words are weigh'd, and decently annext,</l>
+                  <l>Things as their natures are ſo well expreſt:</l>
+                  <l>That this Topick an argument doth give,</l>
+                  <l>Thou truly haſt a ſoul intuitive:</l>
+                  <l>Thou ſcorn'ſt thoſe cripple Scholars which do reſt</l>
+                  <l>In others words, ſwear <hi>Ariſtotles</hi> Text;</l>
+                  <l>Their ſteps do not thee fit, the childrens threes,</l>
+                  <l>Make no <hi>Cothurnus</hi> for a <hi>Sophocles:</hi>
+                  </l>
+                  <l>
+                     <hi>Charleton</hi>'s tranſlated Paradoxes three,</l>
+                  <l>Give way to thy mans Compound Ternaree;</l>
+                  <l>And though ſome think him worthy to be hiſt,</l>
+                  <l>Yet from theſe three we count thee Triſmegiſt.</l>
+               </lg>
+               <closer>
+                  <signed>G. Scot.</signed>
+               </closer>
+            </div>
+            <div type="encomium">
+               <pb facs="tcp:169862:9"/>
+               <head>To the no leſſe Honoured then Ingennuous Authour, <hi>A. C.</hi>
+               </head>
+               <l>WHat ſtupefactive <hi>Opium</hi> did infect</l>
+               <l>The Protoplaſts intuitive Intellect?</l>
+               <l>Sure th' Apple was Narcotick, or ſome charm,</l>
+               <l>Whoſe Magick did ſo powerfully transform</l>
+               <l>The Microcoſme, that it hath ſeem'd a dark</l>
+               <l>And indigeſted <hi>Hylas,</hi> till this spark</l>
+               <l>Of thy Impregnate ſpirit drives away</l>
+               <l>That miſt obſcured the <hi>Tria omnia,</hi>
+               </l>
+               <l>Thou mak'ſt us know our ſelves, who untill now,</l>
+               <l>Thought only we were men, not knowing how:</l>
+               <l>Go on, (brave youth) let thy ſublimed ſtrains</l>
+               <l>Inform th' Mercuriall moyſture of thoſe brains,</l>
+               <l>Whoſe ruder apprehenſions nere could fix yet,</l>
+               <l>'Bove <hi>Entelecheie's</hi> or an <hi>Ipſe dixit:</hi>
+               </l>
+               <l>Sure, thy mere Divine Spirit was created,</l>
+               <l>Whereas that others are but propagated;</l>
+               <l>Which bleſſing that it may extend to thee,</l>
+               <l>(Whereby Cognition might ebetter'd be)</l>
+               <l>We could wiſh thee to ſome Heroick Madam,</l>
+               <l>Unleſſe thou art deſign'd to be the Adam.</l>
+               <closer>
+                  <signed>J. M.</signed>
+               </closer>
+            </div>
+         </div>
+      </front>
+      <body>
+         <div type="text">
+            <pb facs="tcp:169862:9"/>
+            <head>PSEVCHOGRAPHIA ANTHROPOMAGICA.</head>
+            <p>
+               <seg rend="decorInit">T</seg>Hat the nature of ſe<g ref="char:EOLhyphen"/>verall ſpecies had their exiſtence by creation is undeniable, and the humble conceſſion of all ages, yet how inconſiſtent with their definition will eaſily be evi<g ref="char:EOLhyphen"/>denced upon indifferent arbitra<g ref="char:EOLhyphen"/>tion; for if the latitude of creation as they ſuppoſe conſiſt in the pro<g ref="char:EOLhyphen"/>duction of a thing whoſe tearm from which is nothing, then they muſt ampliate their vocabularie, and coyn ſome exotick name for mans production, whoſe principle was an entity, and his materials a ſubject conſentaneous, of its own nature capable of that compoſure; for if the body of man be reducible to thoſe originals by naturall chymi<g ref="char:EOLhyphen"/>ſtry,
+<pb n="2" facs="tcp:169862:10"/> the law of contraries knows no naturall incapacity to its return, or inhability reoppoſing its regreſ<g ref="char:EOLhyphen"/>ſion: elſe our hopes of reviving a plant out of its aſhes, would be as frivolous as our endeavours fruit<g ref="char:EOLhyphen"/>leſs: and therefore <hi>Paracelſus</hi> opi<g ref="char:EOLhyphen"/>nion of compoſing man in his A<g ref="char:EOLhyphen"/>lembeck (though his inſuccedable undertaking anticipated by the de<g ref="char:EOLhyphen"/>ſtinies, and determined by the ſtrength of <hi>Saturn,</hi> did not conclude directly,) yet his attempts herein were not unwarrantable, nor his conceit ridiculous: for the poſſibi<g ref="char:EOLhyphen"/>lity of production not tranſcending the manuall contrivance of art, the effect had been no artificiall impo<g ref="char:EOLhyphen"/>ſture, we rather ſuppoſe creation to be terminated to the production of a new ſpecies, which before in na<g ref="char:EOLhyphen"/>ture had no exiſtence and genera<g ref="char:EOLhyphen"/>tion: to challenge the ſucceſſive con<g ref="char:EOLhyphen"/>tinuation of thoſe beings, each pri<g ref="char:EOLhyphen"/>vate ſpecies were the reall effect of creation, but their ſucceſſion knows
+<pb n="3" facs="tcp:169862:10"/> no other means but generation; for ſince the protoplaſt, the manner of our fouls production cannot be chriſtened creation without a cata<g ref="char:EOLhyphen"/>chreeſe, neither have we an alledg<g ref="char:EOLhyphen"/>ment of reaſon for their exile from encreaſe and multiply, or a confine<g ref="char:EOLhyphen"/>ment of the bleſſing to a limitation of the body.</p>
+            <p>The eſſence of the ſoul as it fell not within the cognition of the Graecians, ſo it exceeded the niceſt Mathematicks of the Arabians, and antidated the demonſtration of later age, whoſe Opticks not reach<g ref="char:EOLhyphen"/>ing beyond its operations, pitching upon its praecincts and bordering on the confines, do peremptorily determine its nature beyond diſ<g ref="char:EOLhyphen"/>pute, ſo that thoſe honeſt endea<g ref="char:EOLhyphen"/>vours at any time in the ſcrutiny of its nature, as they cannot evade the ſentence of ſingularity, ſo they muſt expect the cenſure of curioſity, and their ingenuous imployments ſtand condemned by whole Councels as
+<pb n="4" facs="tcp:169862:11"/> not reaching beyond punctillioes. Surely poſterity cannot but con<g ref="char:EOLhyphen"/>demn the poverty of our concep<g ref="char:EOLhyphen"/>tions, and admire the barrenneſs of our inventions, whoſe ſatisfied rea<g ref="char:EOLhyphen"/>ſons as far below the ſublimed thoughts of antiquity, as coming ſhort of the verity of its nature, ſit down in an ignorant acquieſcence and an implicit faith of obtruded opinion, &amp; though the poſitions of heathens run not parallel with the nature of their ſouls, yet their ad<g ref="char:EOLhyphen"/>vanced thoughts therein (which hi<g ref="char:EOLhyphen"/>therto have degenerated into a ſen<g ref="char:EOLhyphen"/>ſible imparement) have been ſo far from detracting from its dignity, that ſome thereto have not ſtuck to levell their devotions, who knew no other diety. And therefore the Caballiſts have defined it to be <hi>Lumen dei &amp; ad imaginem verbi, Cauſa cauſarum primi exemplaris cre<g ref="char:EOLhyphen"/>ata ſubſtantia, Dei ſigillo<expan>
+                     <am>
+                        <g ref="char:abque"/>
+                     </am>
+                     <ex>que</ex>
+                  </expan> figurata, cujus character est verbum aeternum:</hi> this hath had patrons of later times
+<pb n="5" facs="tcp:169862:11"/> but ſurreptitiouſly fathered upon Predeceſſors: As <hi>Triſmegiſt,</hi> (whoſe Antiquity is pretended, &amp; the num<g ref="char:EOLhyphen"/>ber of whoſe years is farre exceed<g ref="char:EOLhyphen"/>ed by the uſurped date of his Book) who derives its Pedigree from the higheſt Principle, <note place="margin">Cap. 12. Poemand.</note> conceives the Soul a drop of Gods Eſſence and an inviſible Ray of the firſt Lumi<g ref="char:EOLhyphen"/>narie.</p>
+            <p>
+               <hi>Ariſtotle</hi> confuted no leſſe then a whole Jurie of Philoſophers with an <gap reason="foreign" resp="#OXF" extent="1 word">
+                  <desc>〈 in non-Latin alphabet 〉</desc>
+               </gap>, and his <hi>Dixit,</hi> be<g ref="char:EOLhyphen"/>ing evidence ſufficient to prevail up<g ref="char:EOLhyphen"/>on Poſterity; whereto the Schools having proſtituted their Reaſon by ſlaviſh Adherence, and engaged their Faith beyond Belief, intro<g ref="char:EOLhyphen"/>duce his <gap reason="foreign" resp="#OXF" extent="1 span">
+                  <desc>〈 in non-Latin alphabet 〉</desc>
+               </gap>, to confute Expe<g ref="char:EOLhyphen"/>rience, and controul Verity in her beſt Apparell.</p>
+            <p>I am a Free-born Subject; and the Law of Nature which is indiſ<g ref="char:EOLhyphen"/>penſible knows no ſlaverie: and therefore I ſhall now think it a breach of Devotion in ſuſpecting
+<pb n="6" facs="tcp:169862:12"/> the truth of our Parents naked Po<g ref="char:EOLhyphen"/>ſitions, being not back'd with the infallible Teſtimony of Reaſon or Experience, and diſſenting from them by adherence to more ratio<g ref="char:EOLhyphen"/>nall probations, and more unde<g ref="char:EOLhyphen"/>nyable principles; for none (I think) ſince the Magick of the Apple, could challenge to themſelves the Popes Chair: as knowledge is not by Propagation, ſo infallibility (which requires the induſtry of ma<g ref="char:EOLhyphen"/>ny Ages) is not by a Natural Suc<g ref="char:EOLhyphen"/>ceſſion or Inheritance. I could ne<g ref="char:EOLhyphen"/>ver reſolve my Reaſon into the Opi<g ref="char:EOLhyphen"/>nion of Antiquity, or ſurrender my Experience upon a different deter<g ref="char:EOLhyphen"/>mination; the bare aſſertions of the moſt Authentick have never been embraced by me as Oracles: there<g ref="char:EOLhyphen"/>fore I ſhall aſſume the liberty a lit<g ref="char:EOLhyphen"/>tle to unmask the Nature of the ſoul; an ample diſcovery whereof would deride the inſufficiency of <hi>Galilaeus</hi> perſpective.</p>
+            <p>The Spirit Soul and Body are the
+<pb n="7" facs="tcp:169862:12"/> 
+               <hi>Tria omnia,</hi> the three Ingredients in the Compoſition of man: (had the Philoſophers been ſenſible of the diverſity of Soul and Spirit confounded by the Doctrine of <hi>A<g ref="char:EOLhyphen"/>riſtotle</hi>) and conſidered an alteriety of Nature in thoſe two principles, their friendly ſociety had not been impoſſible, nor their Oppoſition excluding reconcilement.</p>
+            <p>The Spirit is the breath of God, which being at firſt the effect of Creation, hath been obſervant of the bleſſing, and ſucceſſively con<g ref="char:EOLhyphen"/>tinued by Propagation, and parti<g ref="char:EOLhyphen"/>cipating of the nature of its prin<g ref="char:EOLhyphen"/>ciple knowes not Mortality beyond a Metaphor: therefore the Primi<g ref="char:EOLhyphen"/>tive Tranſgreſſion did not induce a reall death, but a deperdition of happineſſe, and a degeneration of the Spirit from a State as deſi<g ref="char:EOLhyphen"/>rable, as the preſent is deplor<g ref="char:EOLhyphen"/>able.</p>
+            <p>The Rational Soul being a Cor<g ref="char:EOLhyphen"/>poreal Extract and diſliged from its
+<pb n="8" facs="tcp:169862:13"/> groſſer materials by the Chymi<g ref="char:EOLhyphen"/>ſtrie of Nature, derives its Original from the Seminal Emiſſion of both Individuals; and by its eſſential heat doth Ferment the <hi>Coagulum,</hi> which receiving its vitality from the irradiating <hi>Archaeus,</hi> cannot diſ<g ref="char:EOLhyphen"/>ſemble that impreſſe whereby its <hi>ſuppoſitum</hi> is determined, which being the fertile effect of both Ge<g ref="char:EOLhyphen"/>nitors will eaſily admit an united ſociety with the ſoul of bruit, whoſe natures knowing no incompoſſibili<g ref="char:EOLhyphen"/>ty, doe not exclude a Compoſition; and therefore will perform the con<g ref="char:EOLhyphen"/>ſequent effects of both Natures, which falls within the experience of thoſe <gap reason="foreign" resp="#OXF" extent="1 word">
+                  <desc>〈 in non-Latin alphabet 〉</desc>
+               </gap>. In particular, of one Drinking Cats Blood, a pre<g ref="char:EOLhyphen"/>ſcription for the Epilepſie, the Pa<g ref="char:EOLhyphen"/>tient had his Paroxyſmes; that as he imitated their cryes, ſo would catch at their preyes: and purſue the fortuitous evaſion of the frisking Mouſe: theſe Miſcellaneous prin<g ref="char:EOLhyphen"/>ciples ingroſſing the radicality of
+<pb n="9" facs="tcp:169862:13"/> different forms, and meeting with Convenient promotion, their natu<g ref="char:EOLhyphen"/>rall Conſequences cannot be pre<g ref="char:EOLhyphen"/>vented, without an induction of <hi>Cadmus</hi> Conflict, and an Hoſtile Subverſion of both principles.</p>
+            <p>Now to oppoſe the ſoul of our Saviour wanting a Coadjuvancy of both Sexes, is too weak to baffle ſo<g ref="char:EOLhyphen"/>lid Reaſon, whoſe whole life as it was miraculous, ſo the Manner of his Production ſupernatural.</p>
+            <p>The Rational ſoul is the Mercu<g ref="char:EOLhyphen"/>rial moiſture that marries the two extreams of Spirit and Body; Whoſe Affections are as Contrary as their natures are different; which after is remunerated with Vitality. For ſouls in their own Eſſence are inſenſible, till they be rowzed by the energie of the Spirit. And therefore the ſouls of Bruits being the ſame in Nature with that of man, but actuated with that more ignoble Spirit that moved upon the face of the waters, they come ſhort
+<pb n="10" facs="tcp:169862:14"/> of mans perfections, and cannot de<g ref="char:EOLhyphen"/>liver their Conceptions in verbal Expreſſions.</p>
+            <p>There are no Eſſential differen<g ref="char:EOLhyphen"/>ces in the ſouls of Creatures, being but attenuated bodies by effectual Calidity. Which according to the Efficacie of heat may move in a higher Orb of Perfection, and by vertue of the impregnating Spi<g ref="char:EOLhyphen"/>rit may be raiſed an Animal; which without this ſubtiliating heat had reſted in a lower Degree of Vegetation: and therefore the ſouls of Plants may challenge fra<g ref="char:EOLhyphen"/>ternity with that of Bruits; and Verity will admit no other diffe<g ref="char:EOLhyphen"/>rence but what is gradual, corre<g ref="char:EOLhyphen"/>ſponding the intenſneſſe of lumi<g ref="char:EOLhyphen"/>nous Rayes. For Vegetables peep<g ref="char:EOLhyphen"/>ing out of the pores of the earth the third day, when the Univerſe was equally ſenſible of the diſper<g ref="char:EOLhyphen"/>ſed Rayes, which after being Con<g ref="char:EOLhyphen"/>tracted to a Solary body, with greater Energie ferments the fuli<g ref="char:EOLhyphen"/>ginous
+<pb n="11" facs="tcp:169862:14"/> 
+               <hi>Hylas:</hi> Which being ſepa<g ref="char:EOLhyphen"/>rated from thoſe groſſer Adherents, whoſe Entertainments impede the reception of Vitality, by this Mun<g ref="char:EOLhyphen"/>dane Spirit have their Materials advanced to an animation: and therefore a more noble exiſtence, as firſt of Fiſhes, did iſſue the con<g ref="char:EOLhyphen"/>finement of theſe wandring Rayes.</p>
+            <p>This Mercurial Moyſture being but an Analogicall Spirit, cannot claim immortality without en<g ref="char:EOLhyphen"/>croachment on higher Priviledges, and uſurping the property of high<g ref="char:EOLhyphen"/>er Natures; and therefore being onely ſublimed by the Chymiſtrie of irregular intellectuals, whoſe truth knowes no Foundation in na<g ref="char:EOLhyphen"/>ture, may enter the grave with the more unrefined Maſſe, and admit of a Reſurrection, which being the immediate Recipient of life, is ter<g ref="char:EOLhyphen"/>med life it ſelf. We cannot define that Reſurrection to whoſe exi<g ref="char:EOLhyphen"/>ſtence immortality is appendant: as to the Spirit I am a <hi>Saducy,</hi> which
+<pb n="12" facs="tcp:169862:15"/> being incapable of a lapſe, cannot be reſtaurable by a Riſe, and never dying cannot be ſaid to live again; yet to believe the Reſurrection of the Body, and the life, is part of my Creed; and thus as the ſouls Mor<g ref="char:EOLhyphen"/>tality is no impiety in ſober Theo<g ref="char:EOLhyphen"/>logie; ſo it is no riddle in judicious Philoſophy: for he that ſhall but taſte the ſtrongeſt Spirits acquir<g ref="char:EOLhyphen"/>able by naturall Chymiſtrie, may eaſily be convinced of the perfor<g ref="char:EOLhyphen"/>mance of noble operations by ma<g ref="char:EOLhyphen"/>terial principles, and its permeating each particular of the body in a time ſo imperceptible, as might ea<g ref="char:EOLhyphen"/>ſily impoſe that fallacy upon our ſenſe, to determine its motion in<g ref="char:EOLhyphen"/>ſtantaneous.</p>
+            <p>The Rational ſoul is determined to the viſible Maſſe, commonly ſo called the body: whoſe too contra<g ref="char:EOLhyphen"/>cted nature cannot confine the Spi<g ref="char:EOLhyphen"/>rit; (hence was it that the <hi>Platoniſts</hi> conceded to it a kind of Ubiquity) for reaſon will not admit of any
+<pb n="13" facs="tcp:169862:15"/> operation, where we deny the Eſ<g ref="char:EOLhyphen"/>ſential preſence of the Agent: and that there are extrinſecal effects, appears in the formation of the <hi>Em<g ref="char:EOLhyphen"/>bryo;</hi> and in faſcination performed beyond the viſible body, and Or<g ref="char:EOLhyphen"/>ganical circumſcription; which can<g ref="char:EOLhyphen"/>not be executed by Mediation of qualities; for nature knows no ſuch Deputy; 'tis ignorance that firſt gave the name of Accident.</p>
+            <p>That there are Effluviums ſtee<g ref="char:EOLhyphen"/>ming from every viſible Body, muſt be conceded, as falling under the demonſtration of Experience, and proſtituted by later invention of Perſpectives.</p>
+            <p>Theſe <hi>Effluviums</hi> being the Badgers of heat, (deſert the cum<g ref="char:EOLhyphen"/>berſome ſociety of Reaſon) which flying in the Aire, may occur their Aſſimilables; and by the pregnan<g ref="char:EOLhyphen"/>cy of the Spirit may attain a viſi<g ref="char:EOLhyphen"/>bility iſſuing from the union of hoſe diſ-joynted peeces, as appear at the inſtance of death; for thoſe
+<pb n="14" facs="tcp:169862:16"/> Spectrums and Wafts are but the Effect of the Spirits fertility co<g ref="char:EOLhyphen"/>operating with the heat and Re<g ref="char:EOLhyphen"/>liques of moyſture; the Emiſſion of particles at that time being moſt copious. For Death (being to de<g ref="char:EOLhyphen"/>cide the Controverſie, and to deter<g ref="char:EOLhyphen"/>mine the Combate of the diſeaſe and nature) encreaſeth the heat, and agitating thoſe corporeal Par<g ref="char:EOLhyphen"/>ticles into Atomical Interſtitiums, accompanyeth them into the Aire; where meeting with a proportion<g ref="char:EOLhyphen"/>able number, ſalute each other; the Particles in this confuſed medley being not unmindful of their Of<g ref="char:EOLhyphen"/>fice and Nature, ſeek out their pro<g ref="char:EOLhyphen"/>per ſituation, mould themſelves in<g ref="char:EOLhyphen"/>to ſuch a Method as not to diſſem<g ref="char:EOLhyphen"/>ble their former ſhape; but meet<g ref="char:EOLhyphen"/>ing with ſomething diſmembring its imperfect reunition, or wanting Cement to retain them in this poſi<g ref="char:EOLhyphen"/>tion, are preſently ſhattered into inviſible Exiſtencies. Yet the Spi<g ref="char:EOLhyphen"/>rit as before Death, ſo after aſſoci<g ref="char:EOLhyphen"/>ates
+<pb n="15" facs="tcp:169862:16"/> theſe divided Emiſſions till their heat confeſſe a period: ſo af<g ref="char:EOLhyphen"/>ter bodies are interred, the Reliques of heat (which as it is well nigh inſenſible, ſo the operations are more feeble) doth excite a conti<g ref="char:EOLhyphen"/>nued ſucceſſion of theſe Atoms: which being as formerly ferment<g ref="char:EOLhyphen"/>ed, and united by a Mummial Bal<g ref="char:EOLhyphen"/>ſome, are thoſe Noctambuloes that hover about the Cenotaphes, and haunt the Dormitures of the dead: but the Spirit ſenſible of a perpe<g ref="char:EOLhyphen"/>tuated impairment of heat in thoſe Particles, and their invitation being too weak to obtain a grant of con<g ref="char:EOLhyphen"/>tinuance from the Spirit, they diſ<g ref="char:EOLhyphen"/>lodge their ſociety; and the Spirit returns to him that gave it; where the ſentence of their future condi<g ref="char:EOLhyphen"/>on, as it is infallible, ſo their hopes confirmed in the Center of happi<g ref="char:EOLhyphen"/>neſſe knowes no ſtagger to the cir<g ref="char:EOLhyphen"/>cumference, or their wavering fears confined unto deſpair, are freed from that poſſibility, which is at<g ref="char:EOLhyphen"/>tendant
+<pb n="16" facs="tcp:169862:17"/> on its adlidgements. Thus our Saviour as he envies not the happines of Saints, ſo he is not inju<g ref="char:EOLhyphen"/>rious to the Juſtice of his Father, to gratifie the Conceit of <hi>Origen,</hi> and ſue for a releaſe from hell, or ob<g ref="char:EOLhyphen"/>tain a Parole from the ſecond Death: and therefore the raiſing of <hi>Lazarus,</hi> probably, was but the determining of his Spirit to the viſible Maſſe; which otherwiſe was levaltoing in the ſcattered pieces. So the Spirits of wicked men (ac<g ref="char:EOLhyphen"/>companying the ſteeming Emiſſi<g ref="char:EOLhyphen"/>ons, being wanderers in the Aery Region, and their continuance there being determined by the du<g ref="char:EOLhyphen"/>ration of heat in thoſe Particles. Which truth, excluding Conceal<g ref="char:EOLhyphen"/>ment from Satans Opticks, knows not retirement from his Cogniti<g ref="char:EOLhyphen"/>on, is waiting the Confinement of their Pilgrimage to a condition as immutable as their puniſhment in<g ref="char:EOLhyphen"/>conceiveable; and hence he receives the Baptiſm of the Prince of the air.</p>
+            <pb n="17" facs="tcp:169862:17"/>
+            <p>Reaſon and Memory are not eſ<g ref="char:EOLhyphen"/>ſential to the Soul but the purchaſe of man, and the deplorable effect of his own invention, which af<g ref="char:EOLhyphen"/>ter that Theomachy and con<g ref="char:EOLhyphen"/>teſt with Heaven was obtruded up<g ref="char:EOLhyphen"/>on poſterity, and muſt be embra<g ref="char:EOLhyphen"/>ced as a penalty; and though we concede to <hi>Adam</hi> this continuating Mercuriall moyſture, yet as he was the proper product of his Creator, his perfection was as ignorant of reaſon, as his innocency ſhould have known no puniſhment, and there<g ref="char:EOLhyphen"/>fore whilſt he retained his primi<g ref="char:EOLhyphen"/>tive ſtation, his knowledg (as being little beholden to this torturing rea<g ref="char:EOLhyphen"/>ſon which after obſcured thoſe clearer apprehenſions of his intel<g ref="char:EOLhyphen"/>lect) was intuitive, whereby inferi<g ref="char:EOLhyphen"/>our beings received their names not different from their natures, where if he had remained he had not ſtood in need of Logick, or bin beholden to a Syllogiſme; his eſſence being the rule of proportion to determine,
+<pb n="18" facs="tcp:169862:18"/> concluſions are the effect of ſin, whoſe truth have their foundation in the ſpirit, which being there ſim<g ref="char:EOLhyphen"/>ply apprehended as they are in themſelves, have the ſame verity as in divine eſſence, and therefore the things themſelves owe their errours and miſconceptions to the extrava<g ref="char:EOLhyphen"/>gant exorbitancies of reaſon.</p>
+            <p>So Memory an attendant of Rea<g ref="char:EOLhyphen"/>ſon, which being a ſuperinduction of the ſame cauſe impoſed upon the ſoul, and arreſting inferiour brutali<g ref="char:EOLhyphen"/>ty, could not reach the ſpirit with<g ref="char:EOLhyphen"/>out impeachment of its priviled<g ref="char:EOLhyphen"/>ges, and ſubverting the nature of its eſſence, which being framed accor<g ref="char:EOLhyphen"/>ding to the firſt Idaea, muſt needs exclude the impoſſible ſociety of imperfection: fo in a ſleep the ra<g ref="char:EOLhyphen"/>tional ſoul involving matter, re<g ref="char:EOLhyphen"/>quires this refreſhment, and then being inſenſible of the ſpirits ope<g ref="char:EOLhyphen"/>rations, acts in the organs, as with in<g ref="char:EOLhyphen"/>dependency of reaſon ſo of memo<g ref="char:EOLhyphen"/>ry, oft delivers in vocall expreſſions
+<pb n="19" facs="tcp:169862:18"/> which exceeds the record of the actor, and is recited by ſome diffe<g ref="char:EOLhyphen"/>rent auditor: Thus Amoriſts are their own betrayers, and malefa<g ref="char:EOLhyphen"/>ctors expoſe themſelves beyond ſuſpition, and in ſuch extaticall conditions we approximate primi<g ref="char:EOLhyphen"/>tive integrity, and ſeem to antici<g ref="char:EOLhyphen"/>pate the malice of the Serpent; for thus the ſpirit being ſequeſtered from the obſcurements of reaſon, is preſently rapt into a third Heaven: whoſe eſſence being as immateriall as its nature is indefatigable, needs no ſuch refreſhment, nor can it ſleep without a miracle, and ſome opium from its Creator: therefore we do not read that <hi>Adam</hi> ſlept, but that God caſt him into a deep ſleep, that he might be inſenſible of his hel<g ref="char:EOLhyphen"/>pers production; So <hi>Adams</hi> ſleep was not true ſleep, as not proceed<g ref="char:EOLhyphen"/>ing from nature for his proper con<g ref="char:EOLhyphen"/>ſervation, but from an externall Narcotick, for the production of a ſecond, the ruine of his poſterity.</p>
+            <pb n="20" facs="tcp:169862:19"/>
+            <p>After this divorce betwixt the Spirit and its adherents, there is no immediate poſſeſſion of Beatificall Viſion, nor actuall enjoyment of happineſſe beyond a ſentence, but are detained in a middle Manſion, till the Reſurrection, which then ſhall be compleated when our Sa<g ref="char:EOLhyphen"/>viour's interceſſion ſhall terminate in that heavenly <gap reason="foreign" resp="#OXF" extent="1 word">
+                  <desc>〈 in non-Latin alphabet 〉</desc>
+               </gap>, <hi>Come you bleſsed of my Father.</hi> So the dam<g ref="char:EOLhyphen"/>ned in this Condition fore-ſees the futurity of his puniſhment, from which there is no reprieve or releaſe till Eternity be con<g ref="char:EOLhyphen"/>tracted, and Ubiquity confeſſe a Circumſcription: and therefore from the Moment of Separation, (the unalterable Decree being uſhered in with final Deſpair) their being is a torment, and the time of Death their Criticall day: which at the Reſurrection ends in a Pa<g ref="char:EOLhyphen"/>roxyſm, when hopes of Declinati<g ref="char:EOLhyphen"/>on ſhall be as fruitleſſe as its period is impoſſible.</p>
+            <pb n="21" facs="tcp:169862:19"/>
+            <p>For I do not conceive the infli<g ref="char:EOLhyphen"/>ction of a poſitive torment, either on the damned Spirits, or the De<g ref="char:EOLhyphen"/>vils themſelves, till the day of judg<g ref="char:EOLhyphen"/>ment; and that the Devil knew the deſignation of time for puniſhment, appears upon his Expoſtulation with our Saviour: <hi>Why art thou come to torment us before the time?</hi> They have only now reſtraining ſhackles, which Eternity will advance to bonds of puniſhment.</p>
+            <p>I doe not mean any Purgatorie by this middle Manſion, where there is a poſſibility of Repentance or Redemption; but a higher Court of Gods Juſtice and mercy; where the unalterable Decree of the Synod of Trinity is Declared; where the Spirits in this Condition wait till the Reſurrection, when as the Bleſſed ſhall poſſeſſe their Ju<g ref="char:EOLhyphen"/>bilee; ſo the damned ſhall enjoy their Vulture.</p>
+            <p>Thus being not tyed to the wheel of Authority, I am not ſworn to
+<pb n="22" facs="tcp:169862:20"/> maintain their motion: but being hurried by the <hi>Primum Mobile</hi> of my private reaſon, I become irre<g ref="char:EOLhyphen"/>gular, yet ſhall not repine at the Name of Heretick: I am not mar<g ref="char:EOLhyphen"/>ried to any opinion, whereby I of<g ref="char:EOLhyphen"/>ten make rubs in the levelled axi<g ref="char:EOLhyphen"/>oms of Predeceſſors, and diſturb the tranquillity of thoſe unlimitted Oracles of Antiquity. Intellectual Slaveries have too much anticipa<g ref="char:EOLhyphen"/>ted Geniall Diſpoſitions; and an Implicit faith of obtruded opini<g ref="char:EOLhyphen"/>on have debarred them the ambiti<g ref="char:EOLhyphen"/>on of Diſcoverers.</p>
+            <q>
+               <l>Much Faith makes Truth deſpair, Salvation, ſee,</l>
+               <l>Comes uſhered in with Infidelitie.</l>
+            </q>
+            <p>An Infidel is the beſt Proficient in the School of Nature, whoſe Inquiſition is not meaſured by the Endeavours of his Fathers, nor can his Free-born ſoul brook thoſe Ma<g ref="char:EOLhyphen"/>nacles whereby its power is re<g ref="char:EOLhyphen"/>ſtrained, and its devotion limited. Me think it is an ingenuous cruelty
+<pb n="23" facs="tcp:169862:20"/> whereby we may bring our Mo<g ref="char:EOLhyphen"/>ther Nature to a Confeſſion of her Secrets, though ſhe run the hazard of embowelling, or the moſt bloo<g ref="char:EOLhyphen"/>dy exenteration, and an act of Cha<g ref="char:EOLhyphen"/>rity be a more direct line or clew of improved Reaſon to free our Anceſtors treading in this Tract; but loſt (by a weary purſuit of the cold ſent of truth) in her labyrinths: I honour the Aſhes of our Prede<g ref="char:EOLhyphen"/>ceſſors, yet cannot diſpence with that Superſtition of Devotion or Adherence: where truth looks two wayes, to pin our credulous ſouls upon their ſleeves, would deprive us of our Infranchiſement we ob<g ref="char:EOLhyphen"/>tained by the right of our Creati<g ref="char:EOLhyphen"/>on; the very end whereof doth en<g ref="char:EOLhyphen"/>title us to knowledge: and there<g ref="char:EOLhyphen"/>fore a ſoul that is not tyed to in<g ref="char:EOLhyphen"/>tellectuall ſlaveries, in the Geogra<g ref="char:EOLhyphen"/>phy of knowledge will confute that conceit of <hi>Hercules</hi> Pillars, and a <hi>Ne plus ultra</hi> is but fantaſtical Dream to his more nice and ſubtle
+<pb n="24" facs="tcp:169862:21"/> ſcrutinies; therefore I could exte<g ref="char:EOLhyphen"/>nuate that imputed crime of <hi>Nero</hi>'s Matricide, the improvement of of his knowledge being the end of his ingenuous cruelty, to determine the Cabinet of his Conception. Truth is not ingroſſed by aged Pa<g ref="char:EOLhyphen"/>rents; there is an <hi>America</hi> of know<g ref="char:EOLhyphen"/>ledge yet unfound out, diſcoverable by the endeavours of ſome wiſer <hi>Columbus,</hi> and the promiſed fertili<g ref="char:EOLhyphen"/>ty of ſucceeding Ages. Thoſe un<g ref="char:EOLhyphen"/>ſuccedable attempts of our inculti<g ref="char:EOLhyphen"/>vated Intellectuals, muſt needs ſtand condemned by the more ſublimed Reaſon and acute Phi<g ref="char:EOLhyphen"/>loſophy of Poſterity: Whereby our Primitive imparement by additio<g ref="char:EOLhyphen"/>nal Degrees of a betterment may obtain a parole from ignorance, and procure a Reverſe to the firſt perfection. For if this be true, that the order and courſe of Na<g ref="char:EOLhyphen"/>ture is Circular, and that ſouls in Revolution of time receive a
+<pb n="25" facs="tcp:169862:21"/> ſenſible improvement in their Cog<g ref="char:EOLhyphen"/>nition. Then ſurely ſucceſſion in Nature muſt needs carry De<g ref="char:EOLhyphen"/>grees of Perfection, and the laſt man muſt be an <hi>Adam.</hi>
+            </p>
+            <trailer>FINIS.</trailer>
+         </div>
+      </body>
+   </text>
+</TEI>
